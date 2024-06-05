@@ -1,0 +1,172 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+/* body
+{
+    position: relative;
+    top: 200px;
+} */
+
+.biggestContainer
+{
+    border: 2px dashed black;
+    margin: 20px 10px 20px 10px;
+    padding: 30px 10px 30px 10px;
+}
+
+.biggerContainer
+{
+    border: 30px solid black;
+    margin: 15px 10px 15px 10px;
+    padding: 15px 5px 15px 5px;
+}
+
+.bigContainer
+{
+    border: 3px solid black;
+    margin: 20px 15px 20px 15px;
+    padding: 20px 10px 20px 10px;
+    
+}
+
+table,tr,th
+{
+    width: 100px;
+    border: 1px solid black;
+}
+
+
+
+.flyerlinkContainer
+{
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    padding: 20px;
+    margin: 15px;
+}
+
+.linkContainer li, a
+{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    gap: 10px;
+}
+
+.BtnPostContainer
+{
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+}
+.BtnPostContainer button
+{
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* section
+{
+    background-color: green;
+    min-width: 50vh;
+}
+
+.flyesBiggestContainer
+{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    right: -40px;
+    border: 3px solid white;
+    margin: 30px;
+    padding: 100px 0px 200px;
+}
+
+.flyesBiggerContainer
+{
+    border: 3px solid white;
+    margin: 5px 30px;
+    padding: 100px 0px 200px;
+    position: relative;
+    top: -110px;
+}
+
+.flybigContainer
+{
+    border-radius: 50px solid white;
+    width: 25px;
+    height: 25px;
+} */
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <style>
+        .calculator {
+            width: 300px;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .output {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            text-align: right;
+            padding: 5px;
+        }
+        .btn {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            font-size: 1.2em;
+        }
+    </style>
+    
+
+    /* <script>
+        function appendToOutput(value) {
+            document.getElementById('output').value += value;
+        }
+
+        function calculate() {
+            try {
+                document.getElementById('output').value = eval(document.getElementById('output').value);
+            } catch (e) {
+                document.getElementById('output').value = 'Error';
+            }
+        }
+
+        function clearOutput() {
+            document.getElementById('output').value = '';
+        }
+    </script> */
+
+
